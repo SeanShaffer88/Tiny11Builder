@@ -1,3 +1,5 @@
+> **Fork identity: development fork — distribution permission unresolved.** Derived from [ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder). The native WinUI work is present in the default branch, but [NOTICE.md](NOTICE.md) records unresolved permission for upstream material. No fork-specific packages are published by this audit. Upstream release links do not establish a download for this fork’s WinUI app. See [fork provenance](PROVENANCE.md) for ownership and reporting routes.
+
 # Tiny11 Builder
 
 Build a smaller Windows 11 ISO with a native WinUI app. Download an official
@@ -5,10 +7,9 @@ Windows image or use your own, choose what to remove, and create your ISO.
 
 ## Download
 
-[**Get the latest version**](https://github.com/ntdevlabs/tiny11builder/releases/latest)
+**No fork-specific WinUI download is advertised here.** Read [distribution restrictions](NOTICE.md) before packaging or redistribution. [Upstream releases](https://github.com/ntdevlabs/tiny11builder/releases) belong to ntdevlabs; they are not proof of a native WinUI package for this checkout.
 
-Choose **x64** for Intel/AMD PCs or **ARM64** for Windows on ARM. Extract the
-entire ZIP and open `Tiny11Builder.exe`. Administrator approval is required.
+The following sections describe source functionality. Architecture selections and executable names do not establish released packages or tested host compatibility. Running system-image operations requires administrator approval.
 
 ## Choose your build
 
@@ -64,3 +65,4 @@ Prefer another service? [Patreon](https://www.patreon.com/ntdev) ·
 No donation is needed to use any feature. Reporting reproducible bugs,
 testing builds in a VM and sharing the [demo](https://youtu.be/LfEWIz5mQ8A)
 help too.
+
